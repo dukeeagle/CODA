@@ -1,8 +1,23 @@
+html{
+	margin:0;
+	height:100%;
+	width:100%;
+	overflow-x:hidden;
+}
+
+body{
+	margin:0;
+	height:100%;
+	width:100%;
+	overflow-y: hidden;
+}
+
 #header{
 	background-color:gray;
+	text-align:center;
 	height:20%;
 	width:75%;
-	clear:left;
+	display: inline-block;
 }
 
 #sidebar{
@@ -47,4 +62,9 @@ h3{
 #button1{
 	margin-left:20px;
 	margin-top:10px;
+}
+
+#staff{
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
