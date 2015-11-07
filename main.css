@@ -21,7 +21,7 @@ body{
 }
 
 #sidebar{
-	font-family: Philosopher;
+	font-family: Raleway;
 	width:20%;
 	height: 100%;
 	float:right;
@@ -32,7 +32,7 @@ body{
 }
 
 #content{
-	font-family: Philosopher;
+	font-family: Raleway;
 	border: .5em solid black;
 	height:80%;
 	width:70%;
@@ -42,14 +42,14 @@ body{
 
 h1{
 	padding-top: 40px;
-	font-family: Philosopher;
+	font-family: Raleway;
 	text-align: center;
 	font-size: 5em;
 	display:inline;
 }
 
 h3{
-	font-family: Philosopher;
+	font-family: Raleway;
 	font-size: 2em;
 	margin-left: 20px;
 }
@@ -64,7 +64,19 @@ h3{
 	margin-top:10px;
 }
 
+#button2{
+	margin-left: 0x;
+	display: inline-block;
+	margin-top: 0px;
+}
+#button3{
+	margin-left: -5px;
+	display: inline-block;
+	margin-top: 0px:
+}
 #staff{
 	padding-bottom: 20px;
 	padding-top: 20px;
+	display: inline-block;
+
 }
