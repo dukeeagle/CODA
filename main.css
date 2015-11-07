@@ -1,0 +1,30 @@
+#header{
+	background-color:gray;
+	height:20%;
+	width:100%;
+	clear:both;
+}
+
+#sidebar{
+	font-family: Philosopher;
+	width:20%;
+	height: 100%;
+	float:right;
+	background-color:gray;
+}
+
+#content{
+	font-family: Philosopher;
+	border: 1em solid black;
+	height:80%;
+	width:70%;
+	float:left;
+	margin-left:20px;
+}
+
+h1{
+	padding-top: 30px;
+	font-family: Philosopher;
+	text-align: center;
+	font-size: 5em;
+}
