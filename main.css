@@ -11,6 +11,9 @@
 	height: 100%;
 	float:right;
 	background-color:gray;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
 }
 
 #content{
@@ -19,12 +22,17 @@
 	height:80%;
 	width:70%;
 	float:left;
-	margin-left:20px;
+	margin-left:55px;
 }
 
 h1{
-	padding-top: 30px;
+	padding-top: 40px;
 	font-family: Philosopher;
 	text-align: center;
 	font-size: 5em;
+}
+
+#input{
+	font-size: 2.5em;
+	padding:35px;
 }
