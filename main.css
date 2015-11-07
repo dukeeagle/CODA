@@ -65,7 +65,19 @@ h3{
 	margin-top:10px;
 }
 
+#button2{
+	margin-left: 0x;
+	display: inline-block;
+	margin-top: 0px;
+}
+#button3{
+	margin-left: -5px;
+	display: inline-block;
+	margin-top: 0px:
+}
 #staff{
 	padding-bottom: 20px;
 	padding-top: 20px;
+	display: inline-block;
+
 }
