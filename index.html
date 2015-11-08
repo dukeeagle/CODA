@@ -1,3 +1,31 @@
+<!--Copyright (c) 2015 Luke Igel and William Walcher
+
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. -->
+
+
+
 <!doctype html>
 <html>
 <head>
@@ -13,41 +41,31 @@
 	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 	<!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"> -->
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="user-scalable = yes", initial-scale="1" />
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 	<!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	<link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="assets/icons/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/icons/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/icons/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/icons/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="assets/icons/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="assets/icons/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="assets/icons/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="assets/icons/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="assets/icons/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+	<link rel='shortcut icon' type='image/ico' href='/favicon.ico' />
 	<script src="script.js"></script>
 </head>
 	<body>
 		<div id="header">
-			<h1>C<img src="assets/symbols/coda.png" alt="coda" style="width:.7em;height:.7em;">DA</h1>
-			<h2>A web app for doing musics</h2>
+			<h1>C<img src="assets/symbols/coda.png" alt="coda" style="width:1em;height:.7em;">DA</h1>
+			<h2>a web app for making music</h2>
+			<a href="http://www.facebook.com/sharer.php?u=https://codaapp.github.io" target="_blank">
+        	<img title="Share us on Facebook!" src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    		</a>
+    		<a href="https://twitter.com/share?url=https://codaapp.github.io&amp;text=Check&amp;out&amp;Coda!&amp;A&amp;free&amp;sheet&amp;music&amp;maker!&amp;hashtags=codaapp" target="_blank">
+        	<img title="Share us on Twitter!" src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    		</a>
 		</div>
 		<div id="sidebar">
 			<h3>Clef selection:</h3>
 			<div>
-				<button id="button39" class="button" type="button"><img src="assets/symbols/cleftreble.png" alt="treble clef" style="width:50px;height:100px;"></button>
-				<button id="button40" class="button" type="button"><img src="assets/symbols/clefbass.png" alt="bass clef" style="width:75px;height:80px;"></button>
+				<button id="button39" class="button" type="button"><img src="assets/symbols/cleftreble.png" alt="treble clef" style="width:50px;height:80px;"></button>
+				<button id="button40" class="button" type="button"><img src="assets/symbols/clefbass.png" alt="bass clef" style="width:60px;height:80px;"></button>
 			</div>
 			<h3>Notes:</h3>
 			<div>
@@ -107,12 +125,14 @@
 			</div>
 		</div>
 		<div id="content">
-			<div>
-				<button title="Add a new line" id="button37" class="button" type="button"><span class="fa fa-plus-square fa-3x"></span></button>
+			<div><button title="Add a new line" id="button37" class="button" type="button"><span class="fa fa-plus-square fa-3x"></span></button>
 				<button title="Delete a line" id="button38" class="button" type="button"><span class="fa fa-minus-square fa-3x"></span></button>
 				<button title="Add a repeating line" id="button42" class="button" type="button"><span class="fa fa-repeat fa-3x"></span></button>
 				<button title="Add the final line" id="button41" class="button" type="button"><span class="fa fa-stop fa-3x"></span></button>
 			</div>
+		</div>
+		<div id="footer">
+			<h4> made with <i class="fa fa-heart"></i> by Luke Igel and William Walcher at CodeDay 2015</h4>
 		</div>
 	</body>
 </html>
