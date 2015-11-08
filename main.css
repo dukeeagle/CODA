@@ -81,3 +81,7 @@ h3{
 	display: inline-block;
 
 }
+
+#draggable{
+	background-color: white;
+}
