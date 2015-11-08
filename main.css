@@ -1,5 +1,5 @@
 html{
-	background-color: black;
+	background-color: white;
 	margin:0;
 	height:100%;
 	width:100%;
@@ -14,7 +14,7 @@ body{
 }
 
 #header{
-	background-color:#FF9900;
+	background-color:#FF9933;
 	text-align:center;
 	height:20%;
 	width:73.5%;
@@ -104,5 +104,5 @@ h3{
 
 button{
 	background-color: #FF850B;
-	border: 2px solid #666666;
+	border: 2px solid #964B00;
 }
