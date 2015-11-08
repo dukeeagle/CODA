@@ -44,9 +44,9 @@ body{
 
 h1{
 	padding-top: 40px;
-	font-family: Raleway;
+	font-family: Tinos;
 	text-align: center;
-	font-size: 6em;
+	font-size: 5em;
 	display:inline;
 }
 
@@ -98,4 +98,9 @@ h3{
 	margin: 20px auto;
 	width: 80%;
 	height: 80px;
+}
+
+button{
+	background-color: gray;
+	border: 2px solid #666666;
 }

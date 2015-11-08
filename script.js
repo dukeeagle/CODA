@@ -121,6 +121,12 @@ $(document).ready(function() {
 			case "button40":
 				$("#content").append("<div class='draggable'><img src='assets/symbols/clefbass.png' alt='' style='width:30px;height:70x' /></div>");
 				break;
+			case "button41":
+				$("#content").append("<div class='staff'><img src='assets/symbols/staffextrashortwithend.png' alt='' style='width:80%;height:80px' /></div>");
+				break;
+			case "button42":
+				$("#content").append("<div class='staff'><img src='assets/symbols/staffextrashortrepeat.png' alt='' style='width:80%;height:80px' /></div>");
+				break;
 			default:
 				break;
 		}
