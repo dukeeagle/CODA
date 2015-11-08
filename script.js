@@ -110,7 +110,7 @@ $(document).ready(function() {
 				$("#content").append("<div class='draggable'><img src='assets/symbols/turn.png' alt='' style='width:75px;height:25px' /></div>");
 				break;
 			case "button37":
-				$("#content").append("<div class='staff'><img src='assets/symbols/staffextrashortwithend.png' alt='' style='width:80%;height:50px' /></div>");
+				$("#content").append("<div class='staff'><img src='assets/symbols/staffextrashort.png' alt='' style='width:80%;height:80px' /></div>");
 				break;
 			case "button38":
 				$(".staff")[0].remove();
@@ -120,6 +120,12 @@ $(document).ready(function() {
 				break;
 			case "button40":
 				$("#content").append("<div class='draggable'><img src='assets/symbols/clefbass.png' alt='' style='width:30px;height:70x' /></div>");
+				break;
+			case "button41":
+				$("#content").append("<div class='staff'><img src='assets/symbols/staffextrashortwithend.png' alt='' style='width:80%;height:80px' /></div>");
+				break;
+			case "button42":
+				$("#content").append("<div class='staff'><img src='assets/symbols/staffextrashortrepeat.png' alt='' style='width:80%;height:80px' /></div>");
 				break;
 			default:
 				break;
