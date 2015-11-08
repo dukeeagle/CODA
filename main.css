@@ -76,12 +76,26 @@ h3{
 	margin-top: 0px:
 }
 #staff{
-	padding-bottom: 20px;
-	padding-top: 20px;
-	display: inline-block;
+	display: block;
+	width: 80%;
+	height: 80px;
+	padding-top: 10px;
+	margin: 0 auto;
+	padding-bottom: 6px;
 
 }
 
 .draggable{
 	display: inline;
+}
+
+.staff {
+	margin: 0 auto;
+}
+
+.staff img {
+	display: block;
+	margin: 20px auto;
+	width: 80%;
+	height: 80px;
 }
