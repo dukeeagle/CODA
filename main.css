@@ -41,7 +41,7 @@ body{
 	background-color: white;
 	font-family: Raleway;
 	border: .5em solid black;
-	height:60%;
+	height:55%;
 	width:70%;
 	float:left;
 	margin-left:5px;
@@ -128,7 +128,7 @@ button{
 }
 
 #footer{
-	height:10%;
+	height:15%;
 	width:70%;
 	background-color: #293f50;
 	float:left;
