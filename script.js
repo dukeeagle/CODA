@@ -109,6 +109,9 @@ $(document).ready(function() {
 			case "button36":
 				$("#content").append("<div class='draggable'><img src='assets/symbols/turn.png' alt='' style='width:75px;height:25px' /></div>");
 				break;
+			case "button37":
+				$("#content").append("<div class='draggable'><img src='assets/symbols/staffextrashortwithend.png' alt='' style='width:80%;height:50px' /></div>");
+				break;
 			case "button39":
 				$("#content").append("<div class='draggable'><img src='assets/symbols/cleftreble.png' alt='' style='width:30px;height:70x' /></div>");
 				break;
